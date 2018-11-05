@@ -32,7 +32,7 @@ class App extends Component {
           <div className="App">
             <ToDoList></ToDoList>
             {/* <Route exact path="/" component={Home}/> */}
-            <Route path="/todo" component={ToDoList}/>
+            {/* <Route path="/todo" component={ToDoList}/> */}
             {/* <Route path="/topics" component={Topics}/> */}
           </div>
         </Router>

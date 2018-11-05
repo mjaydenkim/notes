@@ -14,7 +14,7 @@ export default class List extends Component {
   render() {
     return (
       <div style={containerStyles}>
-        <InputWithButton/>
+        <InputWithButton />
         <ul style={listStyles}>
           {this.renderListItems()}
         </ul>
@@ -31,5 +31,4 @@ const containerStyles = {
   textAlign: "left",
   paddingTop: "20px",
   paddingLeft: "20px"
-
 }
